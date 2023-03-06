@@ -2,19 +2,20 @@ from Mahasiswa import Mahasiswa
 from Dosen import Dosen
 from Course import Course
 
+
 class ProgramStudi:
     # protected attributes
     _namaProdi = ""
     _kode = ""
     _fakultas = ""
-    _listCourse : Mahasiswa = []
-    _listDosen : Dosen = []
-    _listMhs : Course = []
+    __listCourse = []
+    __listDosen = []
+    __listMhs = []
 
     # Constructor with default value
     def __init__(self, namaProdi="", kode="", fakultas=""):
         self._namaProdi = namaProdi
-        self._kode = fakultas
+        self._kode = kode
         self._fakultas = fakultas
 
     # --- Setters ---
@@ -40,23 +41,21 @@ class ProgramStudi:
 
     def getFakultas(self):
         return self._fakultas
-    
-    def addMhs(self, mahasiswa : Mahasiswa):
-        self._listMhs += mahasiswa
-        pass
 
-    def addDosen(self, dosen : Dosen):
-        self._listDosen += dosen
-        pass
+    def addMhs(self, mahasiswa: Mahasiswa):
+        self.__listMhs.append(mahasiswa)
 
-    def addCourse(self, course : Course):
-        self._listCourse += course
+    def addDosen(self, dosen: Dosen):
+        self.__listDosen.append(dosen)
 
-    def getListhMhs(self):
-        return self._listhMhs
-    
+    def addCourse(self, course: Course):
+        self.__listCourse.append(course)
+
+    def getListhMhs(self) -> list[Mahasiswa]:
+        return self.__listMhs
+
     def getListhDosen(self):
-        return self._listDosen
-    
+        return self.__listDosen
+
     def getListhCourse(self):
-        return self._listCourse
+        return self.__listCourse

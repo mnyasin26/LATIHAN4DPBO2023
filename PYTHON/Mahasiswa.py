@@ -27,12 +27,13 @@ class Mahasiswa(SivitasAkademik):
 
     # --- Getters ---
     # set value of nim
-    def setNim(self):
+    def getNim(self):
         return self._nim
+    
 
     # set value of programStudi
-    def setSemester(self):
+    def getSemester(self):
         return self._semester
 
-    def setIpk(self):
+    def getIpk(self):
         return self._ipk
