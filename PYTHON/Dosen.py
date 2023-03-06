@@ -15,11 +15,9 @@ class Dosen(SivitasAkademik):
         self._keahlian = keahlian
 
     # --- Setters ---
-    # set value of nim
     def setNip(self, nip):
         self._nip = nip
 
-    # set value of programStudi
     def setPendidikanTerkahir(self, pendidikanTerakhir):
         self._pendidikanTerakhir = pendidikanTerakhir
 
@@ -27,11 +25,9 @@ class Dosen(SivitasAkademik):
         self._keahlian = setKeahlian
 
     # --- Getters ---
-    # set value of nim
     def getNip(self):
         return self._nip
 
-    # set value of programStudi
     def getPendidikanTerkahir(self):
         return self._pendidikanTerakhir
 

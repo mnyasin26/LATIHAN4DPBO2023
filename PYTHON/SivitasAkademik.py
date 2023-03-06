@@ -14,11 +14,9 @@ class SivitasAkademik(Human):
         self._fakultas = fakultas
 
     # --- Setters ---
-    # set value of nim
     def setAsalUniversitas(self, asalaUniversitas):
         self._asalUniversitas = asalaUniversitas
 
-    # set value of programStudi
     def setEmailEdu(self, emailEdu):
         self._emailEdu = emailEdu
 

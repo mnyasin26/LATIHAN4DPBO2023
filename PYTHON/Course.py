@@ -11,11 +11,9 @@ class Course:
         self._jmlhSKS = jmlhSKS
 
     # --- Setters ---
-    # set value of nim
     def setKodeMK(self, kodeMK):
         self._kodeMK = kodeMK
 
-    # set value of programStudi
     def setNamaMataKuliah(self, namaMataKuliah):
         self._namaMatakuliah = namaMataKuliah
 
@@ -23,11 +21,9 @@ class Course:
         self._jmlhSKS = setKeahlian
 
     # --- Getters ---
-    # set value of nim
     def getKodeMK(self):
         return self._kodeMK
 
-    # set value of programStudi
     def getNamaMataKuliah(self):
         return self._namaMatakuliah
 

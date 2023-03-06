@@ -14,11 +14,9 @@ class Mahasiswa(SivitasAkademik):
         self._ipk = ipk
 
     # --- Setters ---
-    # set value of nim
     def setNim(self, nim):
         self._nim = nim
 
-    # set value of programStudi
     def setSemester(self, semester):
         self._semester = semester
 
@@ -26,12 +24,9 @@ class Mahasiswa(SivitasAkademik):
         self._ipk = ipk
 
     # --- Getters ---
-    # set value of nim
     def getNim(self):
         return self._nim
     
-
-    # set value of programStudi
     def getSemester(self):
         return self._semester
 

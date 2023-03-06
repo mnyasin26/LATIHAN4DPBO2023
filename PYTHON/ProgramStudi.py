@@ -45,6 +45,7 @@ class ProgramStudi:
     def getFakultas(self):
         return self._fakultas
 
+    # some other utilities
     def addMhs(self, mahasiswa: Mahasiswa):
         self.__listMhs.append(mahasiswa)
 

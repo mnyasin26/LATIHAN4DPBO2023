@@ -28,6 +28,7 @@ nirwana = Course("DKV320", "Nirwana", "3")
 ilmuKomputer = ProgramStudi("Ilmu Komputer", "IK", "FPMIPA")
 dkv = ProgramStudi("Desain Komunikasi Visual", "DKV", "FPSD")
 
+# Add Mhs, Dosen, and Course to Ilmu Komputer
 ilmuKomputer.addCourse(promvis)
 ilmuKomputer.addCourse(eBusiness)
 
@@ -38,6 +39,7 @@ ilmuKomputer.addMhs(ojan)
 ilmuKomputer.addMhs(maul)
 ilmuKomputer.addMhs(reyhan)
 
+# Add Mhs, Dosen, and Course to DKV
 dkv.addCourse(nirwana)
 dkv.addDosen(sunandar)
 dkv.addMhs(darto)

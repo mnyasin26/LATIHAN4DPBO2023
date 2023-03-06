@@ -47,7 +47,6 @@ class Table:
             for m in n:
                 # print(m)
                 # checking the longest length of every element corresponds to its column
-                # print(str(len(m)) + ":" + str(self.__colLength[index]))
                 if (len(m) > self.__colLength[index]):
                     self.__colLength[index] = len(m)
                 index = index + 1
