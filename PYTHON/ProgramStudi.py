@@ -17,6 +17,9 @@ class ProgramStudi:
         self._namaProdi = namaProdi
         self._kode = kode
         self._fakultas = fakultas
+        self.__listCourse = []
+        self.__listDosen = []
+        self.__listMhs = []
 
     # --- Setters ---
     # set value of nim
@@ -51,11 +54,11 @@ class ProgramStudi:
     def addCourse(self, course: Course):
         self.__listCourse.append(course)
 
-    def getListhMhs(self) -> list[Mahasiswa]:
+    def getListMhs(self) -> list[Mahasiswa]:
         return self.__listMhs
 
-    def getListhDosen(self):
+    def getListDosen(self) -> list[Dosen]:
         return self.__listDosen
 
-    def getListhCourse(self):
+    def getListCourse(self) -> list[Course]:
         return self.__listCourse
