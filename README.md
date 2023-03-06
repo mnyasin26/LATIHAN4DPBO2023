@@ -20,7 +20,7 @@ Composition
 
 Hubungan tujuh kelas di atas dijelaskan pada gambar berikut:
 
-![Desain Kelas]()
+![Desain Kelas](https://github.com/mnyasin26/LATIHAN4DPBO2023/blob/master/desain%20kelas%20latihan%204.png)
 
 ## Alur Program
 1. Instansiasi kelas Mahasiswa, Dosen, Course, dan ProgramStudi dengan parameter dummy
@@ -29,4 +29,4 @@ Hubungan tujuh kelas di atas dijelaskan pada gambar berikut:
 4. Tampilkan data dengan memanggil method displayData pada objek table yang telah diinstansiasi
 
 ## Dokumentasi Program Saat Dijalankan
-![Dokumentasi Program Java](https://github.com/mnyasin26/LATIHAN2DPBO2023/blob/main/JAVA/Screenshot/JAVA_YASIN.png)
+![Dokumentasi Program Python](https://github.com/mnyasin26/LATIHAN4DPBO2023/blob/master/PYTHON/screenshot/python.png)
